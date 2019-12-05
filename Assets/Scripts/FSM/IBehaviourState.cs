@@ -1,8 +1,11 @@
-﻿public interface IBehaviourState
+﻿namespace FSM
 {
-    void Start();
+    public interface IBehaviourState
+    {
+        void Start();
     
-    void Update();
+        void Update();
     
-    void Exit();
+        void Exit();
+    }
 }

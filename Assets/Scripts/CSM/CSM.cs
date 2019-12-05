@@ -1,24 +1,25 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
 
-public class CSM
+namespace CSM
 {
-    private List<IBehaviourCall> _currentCalls = new List<IBehaviourCall>();
+    public class CSM
+    {
+        private List<IBehaviourCall> _currentCalls = new List<IBehaviourCall>();
     
-    void Call<TBehaviourCall>() where TBehaviourCall : IBehaviourCall
-    {
-    }
+        void Call<TBehaviourCall>() where TBehaviourCall : IBehaviourCall
+        {
+        
+        }
 
-    void VerifyActivity()
-    {
+        void VerifyActivity()
+        {
         
-    }
-    void DisposeCall()
-    {
+        }
+        void DisposeCall()
+        {
         
-    }
+        }
 
     
+    }
 }
